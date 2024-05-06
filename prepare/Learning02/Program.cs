@@ -4,6 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Learning02 World!");
+        Person fred = new Person();
+        fred.givenName = "Fred";
+        fred.familyName = "Flinstone";
+        Person steve = new Person();
+        steve.givenName = "Steve";
+        steve.familyName = "Minecraft";
+
+        fred.EasternStyleName();
+        steve.westernStyleName();
     }
 }
