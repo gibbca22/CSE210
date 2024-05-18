@@ -2,12 +2,13 @@ using System;
 
 class Person{
 
-    public string givenName;
+    private string givenName;
 
-    public string familyName;
+    private string familyName;
 
-    public Person() {
-
+    public Person(string givenName, string familyName) {
+        this.givenName = givenName;
+        this.familyName = familyName;
     }
 
     public void EasternStyleName() {
